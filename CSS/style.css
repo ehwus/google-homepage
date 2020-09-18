@@ -21,9 +21,14 @@ body {
     padding-right: 15px;
 }
 
-#logoSearch {
+#logo {
     padding-top: 10em;
-    padding-bottom: 3em;
+    padding-bottom: 5px;
+}
+
+#search {
+    padding-bottom: 20px;
+    height: 34px;
 }
 
 #footer {
