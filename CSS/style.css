@@ -6,14 +6,19 @@
                         "leftnav . . rightnav"
                         ". search search ."
                         "leftfooter . . rightfooter";
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
 }
 
 #navLeft {
     grid-area: leftnav;
+    text-align: left;
 }
 
 #navRight {
     grid-area: rightnav;
+    text-align: right;
 }
 
 #logosearch {
@@ -22,4 +27,6 @@
 
 #footer {
     grid-area: rightfooter;
+    display: flex;
+    align-items: flex-end;
 }
