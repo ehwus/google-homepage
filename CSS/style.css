@@ -32,6 +32,18 @@ ul {
     border-radius: 7.5%;
 }
 
+.grey {
+    background: #f2f2f2;
+    border: none;
+    color: grey;
+    font-weight: lighter;
+}
+
+.grey:hover {
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+}
+
 /* Nav */
 .main-nav {
     display: flex;
